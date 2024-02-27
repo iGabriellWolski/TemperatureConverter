@@ -1,0 +1,50 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+h1 {
+    display: block;
+}
+
+.card_celsiusToFire,
+.card_fireToCelsius {
+    display: block;
+    /* background-color: red; */
+    width: 300px;
+    height: 250px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.card_celsiusToFire p,
+.card_fireToCelsius p {
+    margin-bottom: .75rem;
+}
+
+.card_celsiusToFire input,
+.card_fireToCelsius input {
+    padding: .35rem;
+    margin-top: .25rem;
+}
+
+button {
+    display: block;
+    margin-top: 1rem;
+    padding: .25rem;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+}
