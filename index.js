@@ -26,7 +26,7 @@ const btnForm = document.querySelectorAll(".js-btn").forEach((btns) => {
       let resultFinalCelsius = ((fahrenheitInputVlue - 32) * 5) / 9;
       let resultFahrenheit = (document.querySelector(
         ".js-resultado-fahrenheit"
-      ).innerHTML = `The conversion of ${fahrenheitInputVlue} Fahrenheit is ${resultFinalCelsius.toFixed(
+      ).innerHTML = `The conversion of ${fahrenheitInputVlue} Celsius is ${resultFinalCelsius.toFixed(
         0
       )}`);
     }
